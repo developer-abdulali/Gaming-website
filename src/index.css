@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #0A0A0A;;
+body {
+  background-color: #0a0a0a;
 }
 /* styles.css or your stylesheet */
 .font-custom {
   font-family: "Bebas Neue", sans-serif;
+}
+
+.carousel-indicators .active {
+  background-color: #c1260f;
 }
